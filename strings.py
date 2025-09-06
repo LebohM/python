@@ -1,6 +1,6 @@
 #strings
 
-message = 'This is a string in single quotes'
+message = 'This, is a string, in single quotes'
 print(message)
 
 message1 = " THIS IS A STRING IN DOUBLE QUOTES "
@@ -18,8 +18,12 @@ print(message[0]) #prints the character at posision 0
 
 print(message[-1])
 
-#UPPER, lower, strip, replace
+#UPPER, lower, strip, replace, split
 
-print(message.upper())
-print(message1.lower())
-print(message1.strip())
+print(message.upper()) #uppercase
+print(message1.lower()) #lowercase
+print(message1.strip()) #remove white spaces
+
+print(message.split(',')) # comma seperate
+
+prin(message()) #
