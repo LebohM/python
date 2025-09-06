@@ -26,4 +26,4 @@ print(message1.strip()) #remove white spaces
 
 print(message.split(',')) # comma seperate
 
-prin(message()) #
+print(message.replace('string', 'message')) #replace a word
