@@ -15,9 +15,11 @@ print(num * num2)
 
 #control Statements 
 
-if num == 3:
-    print('num is equal to 3')
-elif num < 7:
-    print('num is less than 7 and is '+ num)
+if num > 6:
+    print('num is a positive number')
+elif num < 0:
+    print('num is a negative number')
+else:
+    print(num)
     
  
