@@ -48,6 +48,11 @@ for f in fruits:
 
 #WHILE Loop control Statements
 print()
-count = 1
+count = 0
 
-while count 
+while count < 5:
+    print(count)
+    count += 1
+    if count == 3:
+        break
+    
