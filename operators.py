@@ -26,5 +26,12 @@ else:
 #More control statements
 number1 = int(input("Enter number 1: "))
 number2 = int(input("Enter number 2: "))
+
+if number1 > number2:
+    print(number1, 'is greator than ', number2)
+elif number2 > number1:
+    print(number2, 'is greater than ', number1)
+else:
+    print('both numbers are equal')
  
  
