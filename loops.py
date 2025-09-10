@@ -47,3 +47,7 @@ for f in fruits:
     
 
 #WHILE Loop control Statements
+print()
+count = 1
+
+while count 
