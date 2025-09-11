@@ -23,3 +23,7 @@ print(fruits)
 print()
 fruits.sort() #sort the list in ascending order automatically
 print(fruits) 
+
+print()
+fruits.sort(reverse = "descending") #manually set the sort to descending
+print(fruits)
