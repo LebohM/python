@@ -9,7 +9,7 @@ print(fruits)
 
 #Edit lists
 print()
-fruits.append("Kiwi")
+fruits.append("Kiwi") #add an item at the end of the list
 print(fruits)
 
-fruits.insert(2)
+fruits.insert(2, "Mango")
