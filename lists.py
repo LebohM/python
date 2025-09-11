@@ -12,4 +12,14 @@ print()
 fruits.append("Kiwi") #add an item at the end of the list
 print(fruits)
 
-fruits.insert(2, "Mango")
+print()
+fruits.insert(2, "Mango") #Add an item in a particular position
+print(fruits)
+
+print()
+fruits.remove("Blueberry") #removes an item from the list
+print(fruits)
+
+print()
+fruits.sort() #sort the list in ascending order automatically
+print(fruits) 
