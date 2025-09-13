@@ -31,4 +31,4 @@ for  food in food_items:
 for price in item_prices:
     total += price
 
-print("You total is R{total}", '\n')
+print(f"Your total is: R{total}", '\n')
