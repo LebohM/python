@@ -7,3 +7,10 @@ print(my_set, "\n")
 
 my_set.add(0)
 print(my_set, "\n")
+
+my_set.remove(2)
+print(my_set, "\n")
+
+my_set1 = {4,7,8,5}
+my_union = my_set.union(my_set1) #union combines the sets into one set with no duplicates
+print(my_union, "\n")
