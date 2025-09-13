@@ -23,3 +23,8 @@ print(my_union, "\n")
 
 interset = my_set.intersection(my_set1)
 print(interset, "\n")
+
+#difference is what defferent between the sets
+
+diff_set = my_set.difference(my_set1)
+print(diff_set, "\n")
