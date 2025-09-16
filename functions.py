@@ -23,6 +23,6 @@ results = factorial(6)
 print(results)
 
 def greet(name, greeting ="hello"):
-    print(greeting, name)
+    print(f"{greeting}, {name}")
     
-greet("Bonisa")   
+greet("Bonisa", "Good Morning")   
