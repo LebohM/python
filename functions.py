@@ -21,3 +21,8 @@ def factorial(n):
 results = factorial(6)
 
 print(results)
+
+def greet(name, greeting ="hello"):
+    print(greeting, name)
+    
+greet("Bonisa")   
