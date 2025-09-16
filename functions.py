@@ -18,6 +18,6 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-results = factorial(4)
+results = factorial(6)
 
 print(results)
